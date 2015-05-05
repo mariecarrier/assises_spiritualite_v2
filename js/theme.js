@@ -98,6 +98,8 @@ function scroll() {
 // HEADER FUNCTIONS   ||-----------
 // ---------------------------------------------------------------------------------------------------------------------------->
 
+
+/* MM désactivé
 function header() {
 
     // Sticky Header Elements
@@ -111,6 +113,8 @@ function header() {
             $('.inner-inro').css('z-index', 'auto');
         }
     });
+   
+    
     heightElement();
     function heightElement() {
 
@@ -128,7 +132,7 @@ function header() {
         heightElement();
     });
 };
-
+*/
 
 // ---------------------------------------------------------------------------------------------------------------------------->
 // PUSHMENU FUNCTIONS (Top, Bottom, Right, Left)  ||-----------
@@ -544,7 +548,7 @@ function scrollCallbackEle() {
 shortcodeElements();
 function shortcodeElements() {
 
-
+/* MM désactivé
     //Parallax Function element
     $('.parallax').each(function () {
         var $el = $(this);
@@ -578,17 +582,21 @@ function shortcodeElements() {
         if ($('.parallax').hasClass('parallax-background1')) {
             $el.css("background-position", 'left' + " " + yPos_p + "px");
         }
+        
+        
         if ($('.parallax').hasClass('parallax-background2')) {
             $el.css("background-position", 'left' + " " + -yPos_p + "px");
 
+
         }
+        
         
           if ($('.carousel-caption').hasClass('carousel-caption')) {
             $el.css("background-position", 'left' + " " + -yPos_p + "px");
 
         }
     };
-
+*/
     //Parallax plugin Js Function element
     $.stellar({
         horizontalScrolling: false,

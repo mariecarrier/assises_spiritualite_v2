@@ -71,7 +71,7 @@ body {
     line-height: 24px;
     color: #323232;
     font-size: 13px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -172,8 +172,8 @@ ul.text-cap li, .text-cap {
 }
 
 p {
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 28px;
+    font-size: 16px;
     font-weight: 300;
     margin: 0px 0 10px 0;
     color: #888;
@@ -374,9 +374,9 @@ a.btn  {
 
 h1, h2, h3, h4, h5, h6 {
     color: #323232;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    text-transform: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -406,15 +406,16 @@ h2 {
 }
 
 h3 {
-    font-size: 21px;
-    letter-spacing: 4px;
+    font-size: 30px;
+    letter-spacing: 0px;
     line-height: 32px;
+    margin: 20px 0px;
 }
 
     h3:after {
-        color: #e6ae49;
+        /*color: #e6ae49;
         content: ".";
-        font-size: 34px;
+        font-size: 34px;*/
     }
 
 h4 {
@@ -971,6 +972,18 @@ form label.error {
     float: right;
 }
 
+/* MM rajout */
+p.photo-invite {
+    text-align:center !important; 
+}
+
+p.photo-invite img {
+    margin-left: 175px;; 
+}
+   
+
+
+
 @media (max-width: 991px) {
 
 
@@ -1259,13 +1272,13 @@ form label.error {
 }
 
     .full-intro .header.sticky {
-        background-color: rgba(216, 215, 234, 1);
+        background-color: rgba(248, 247, 253, 0.8);
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
         -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
         -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
         color: #323232;
-        position: fixed;
+        position: relative;
         /*border-bottom: 1px solid #eee;*/
     }
 
@@ -2352,7 +2365,7 @@ header.sticky .navigation a.current-ele {
     }
 
     .overlay-dark80:before {
-        background-color: rgba(32,32,32,0.8);
+        background-color: #FFFFFF;
     }
 
     .overlay-light:before {
