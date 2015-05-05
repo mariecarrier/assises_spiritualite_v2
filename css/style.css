@@ -654,7 +654,7 @@ button, input, textarea, select {
     input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
         appearance: none;
         -webkit-appearance: none;
-        border: 1px solid #ddd;
+        border: 1px solid #909090;
         -webkit-border-radius: 0px;
         border-radius: 0px;
         color: #888;
@@ -671,7 +671,7 @@ button, input, textarea, select {
     }
 
         input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus, input[type="password"]:focus, textarea:focus {
-            border-color: #8F8DB4;
+            border-color: #B4B1F4;
             color: #323232;
         }
 
@@ -1599,9 +1599,13 @@ header.sticky .navigation a.current-ele {
 /*DÉBUT INPUT DU FORMULAIRE*/
 
 
+.inscription {
+    width: 600px;   
+}
+
 .inscription p {
     float: left;
-    margin-right: 10px;   
+    margin-right: 20px;   
 }
 
 .inscription input, .inscription select  {
@@ -1622,12 +1626,45 @@ header.sticky .navigation a.current-ele {
 }
 
 
+.inscription p.nom input {
+     width: 200px;
+}
 
+.inscription p.adresse input {
+     width: 580px;
+}
 
+.inscription p.ville input {
+     width: 200px;
+}
 
+.inscription p.province select {
+     width: 140px;
+}
 
+.inscription p.code-postal input {
+     width: 200px;
+}
 
+.inscription p.courriel input {
+     width: 360px;
+}
 
+.inscription p.telephone input.case1 {
+     width: 70px;
+}
+
+.inscription p.telephone input.case2 {
+     width: 70px;
+}
+
+.inscription p.telephone input.case3 {
+    width: 80px;
+}
+
+.inscription p.telephone span.paran {
+    font-size:20px;
+}
 /*FIN INPUT DU FORMULAIRE*/
 
 
