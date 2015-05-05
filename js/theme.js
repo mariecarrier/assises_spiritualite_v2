@@ -99,10 +99,13 @@ function scroll() {
 // ---------------------------------------------------------------------------------------------------------------------------->
 
 
-/* MM désactivé
+
 function header() {
 
     // Sticky Header Elements
+    
+   /*MM désactivé
+   
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1) {
             $('.header').addClass("sticky");
@@ -114,7 +117,7 @@ function header() {
         }
     });
    
-    
+    */
     heightElement();
     function heightElement() {
 
@@ -132,7 +135,7 @@ function header() {
         heightElement();
     });
 };
-*/
+
 
 // ---------------------------------------------------------------------------------------------------------------------------->
 // PUSHMENU FUNCTIONS (Top, Bottom, Right, Left)  ||-----------
