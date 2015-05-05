@@ -176,7 +176,7 @@ p {
     font-size: 16px;
     font-weight: 300;
     margin: 0px 0 10px 0;
-    color: #888;
+    color: #434343;
     letter-spacing: 1px;
 }
 
@@ -671,7 +671,7 @@ button, input, textarea, select {
     }
 
         input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus, input[type="password"]:focus, textarea:focus {
-            border-color: #e6ae49;
+            border-color: #8F8DB4;
             color: #323232;
         }
 
@@ -801,7 +801,7 @@ form label.error {
 }
 
 .ptb {
-    padding-top: 110px;
+    padding-top: 80px;
     padding-bottom: 110px;
 }
 
@@ -1578,6 +1578,58 @@ header.sticky .navigation a.current-ele {
     min-width: 125px;
 }
 
+.wrapper-box {
+   box-shadow: 10px 20px 10px #D4D4D4;
+   height: 500px;
+   padding: 0px 0px 0px 40px;
+}
+
+
+.wrapper-box2 {
+   box-shadow: 10px 20px 10px #D4D4D4;
+   height: 1500px;
+   padding: 0px 0px 0px 40px;
+}
+
+.wrapper-box h1 {
+    font-size: 3em;
+}
+
+
+/*DÉBUT INPUT DU FORMULAIRE*/
+
+
+.inscription p {
+    float: left;
+    margin-right: 10px;   
+}
+
+.inscription input, .inscription select  {
+    height: 45px; 
+}
+
+.inscription select  {
+    -webkit-appearance: menulist;
+}
+
+
+.inscription p.civilite select {
+     width: 140px;    
+}
+
+.inscription p.prenom input {
+     width: 200px;
+}
+
+
+
+
+
+
+
+
+/*FIN INPUT DU FORMULAIRE*/
+
 
 }
 
@@ -2303,6 +2355,14 @@ header.sticky .navigation a.current-ele {
 .wrapper {
     position: relative;
     width: 100%;
+}
+
+
+.inner-intro.sub-pages {
+    background-color: #f7f7f7;
+    height: 200px;
+    display: block;
+    position: relative;
 }
 
 .inner-intro {
